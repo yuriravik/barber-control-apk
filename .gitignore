@@ -1,0 +1,47 @@
+# ── Build outputs ─────────────────────────────────────────────────────────────
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+build/
+out/
+app/build/
+
+# ── Android Studio / IntelliJ ─────────────────────────────────────────────────
+*.iml
+.idea/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+.idea/modules.xml
+*.eml
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# ── Gradle ────────────────────────────────────────────────────────────────────
+.gradle/
+gradle-app.setting
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+!gradlew
+!gradlew.bat
+local.properties
+
+# ── Keystore (NUNCA versionar keystores ou senhas) ───────────────────────────
+*.jks
+*.keystore
+keystore.properties
+
+# ── Arquivos de SO ────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Logs e temporários ────────────────────────────────────────────────────────
+*.log
+*.tmp

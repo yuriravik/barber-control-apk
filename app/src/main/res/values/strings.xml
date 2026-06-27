@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Barber Control</string>
+
+    <!-- Splash -->
+    <string name="splash_subtitle">Seu estilo, nossa precisão</string>
+
+    <!-- Login -->
+    <string name="login_subtitle">Entre para continuar</string>
+    <string name="label_email">E-mail</string>
+    <string name="label_password">Senha</string>
+    <string name="show_password">Mostrar senha</string>
+    <string name="hide_password">Ocultar senha</string>
+    <string name="btn_login">Entrar</string>
+
+    <!-- Home -->
+    <string name="home_welcome">Bem-vindo!</string>
+    <string name="home_placeholder">Dashboard em desenvolvimento.\nMais funcionalidades em breve.</string>
+    <string name="btn_logout">Sair</string>
+</resources>
