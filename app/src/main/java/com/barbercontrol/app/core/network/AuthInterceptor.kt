@@ -12,8 +12,7 @@ import javax.inject.Inject
  * a todas as requisições que possuam um token salvo.
  *
  * Exemplo do header inserido:
- *   Authorization: ******
- */
+ *   Authorization: ****** */
 class AuthInterceptor @Inject constructor(
     private val tokenManager: TokenManager
 ) : Interceptor {
@@ -23,7 +22,8 @@ class AuthInterceptor @Inject constructor(
 
         val request = chain.request().newBuilder().apply {
             if (!token.isNullOrBlank()) {
-                addHeader("Authorization", "Bearer " + token)
+                val headerValue = "Bearer " + token
+                addHeader("Authorization", headerValue)
             }
         }.build()
 
