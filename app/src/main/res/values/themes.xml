@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Tema base para o manifest Android.
+    O tema visual real do app é gerenciado pelo Jetpack Compose (BarberControlTheme).
+    Usamos um tema de framework mínimo aqui apenas para a janela do sistema.
+-->
+<resources>
+    <style name="Theme.BarberControl" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Fundo escuro durante o cold start (antes do Compose renderizar) -->
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+</resources>
